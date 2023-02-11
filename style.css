@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+background-color: rgb(89, 177, 206);
+
+}
+
+section{
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+box-shadow: 5px 5px 5px rgb(39, 39, 39);
+margin: auto;
+width: 500px;
+}
+
+#botao{
+    background-color: rgb(7, 85, 255);
+    padding: 10px 20px;
+    border: 2px solid rgb(67, 67, 255);
+    border-radius: 100px;
+    margin: 15px 0px;
+    color: white;
+    
+}
+
+#botao:hover{
+    background-color: rgb(68, 68, 255);
+    transition: all 0.5s;
+}
+input{
+    cursor: pointer;
+    margin: 5px 0px;
+}
+
+header{
+text-align: center;
+color: white;
+margin: 20px;
+}
+
+#res{
+    margin: 0px 20px ;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 20px;
+}
